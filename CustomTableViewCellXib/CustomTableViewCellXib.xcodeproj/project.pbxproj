@@ -13,6 +13,8 @@
 		1991ECF0299EBBF700164C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1991ECEE299EBBF700164C36 /* Main.storyboard */; };
 		1991ECF2299EBBFA00164C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1991ECF1299EBBFA00164C36 /* Assets.xcassets */; };
 		1991ECF5299EBBFA00164C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1991ECF3299EBBFA00164C36 /* LaunchScreen.storyboard */; };
+		1991ECFF299EBC8600164C36 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1991ECFD299EBC8600164C36 /* TableViewCell.swift */; };
+		1991ED00299EBC8600164C36 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1991ECFE299EBC8600164C36 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1991ECF1299EBBFA00164C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1991ECF4299EBBFA00164C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1991ECF6299EBBFA00164C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1991ECFD299EBC8600164C36 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1991ECFE299EBC8600164C36 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1991ECF1299EBBFA00164C36 /* Assets.xcassets */,
 				1991ECF3299EBBFA00164C36 /* LaunchScreen.storyboard */,
 				1991ECF6299EBBFA00164C36 /* Info.plist */,
+				1991ECFD299EBC8600164C36 /* TableViewCell.swift */,
+				1991ECFE299EBC8600164C36 /* TableViewCell.xib */,
 			);
 			path = CustomTableViewCellXib;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1991ECF5299EBBFA00164C36 /* LaunchScreen.storyboard in Resources */,
+				1991ED00299EBC8600164C36 /* TableViewCell.xib in Resources */,
 				1991ECF2299EBBFA00164C36 /* Assets.xcassets in Resources */,
 				1991ECF0299EBBF700164C36 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1991ECED299EBBF700164C36 /* ViewController.swift in Sources */,
+				1991ECFF299EBC8600164C36 /* TableViewCell.swift in Sources */,
 				1991ECE9299EBBF700164C36 /* AppDelegate.swift in Sources */,
 				1991ECEB299EBBF700164C36 /* SceneDelegate.swift in Sources */,
 			);
